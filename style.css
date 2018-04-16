@@ -1,0 +1,77 @@
+.warp{
+			width: 500px;
+			height: 380px;
+			border: 1px solid black;
+			margin: 100px auto;
+			position: relative;
+			overflow: hidden;
+		}
+		.box{
+			height: 380px;
+			width: 700%;
+			position: absolute;
+			left: -500px;
+
+		}
+		.box div.item{
+			width: 500px;
+			height: 100%;
+			float: left;
+			font-size: 50px;
+			line-height: 380px;
+			text-align: center;
+			color: white;
+		}
+		.item1{
+			background-color: red;
+		}
+		.item2{
+			background-color: blue;
+		}
+		.item3{
+			background-color: yellow;
+		}
+		.item4{
+			background-color: green;
+		}
+		.item5{
+			background-color: black;
+		}
+		.btn_left,.btn_right{
+			width: 30px;
+			height: 80px;
+			background-color: purple;
+			position: absolute;
+			top: 50%;
+			margin-top:-40px;
+			line-height: 80px;
+			color: white;
+			text-align: center;
+		}
+		.btn_right{
+			right: 0px;
+		}
+		.point{
+			height: 12px;
+			position: absolute;
+			bottom: 0px;
+			left: 42.5%;
+		}
+		span{
+			width: 10px;
+			height: 10px;
+			float: left;
+			margin-right: 5px;
+			border: 1px solid black;
+			background-color: gray;
+			border-radius: 50%;
+		}
+		.red{
+			width: 10px;
+			height: 10px;
+			float: left;
+			margin-right: 5px;
+			border: 1px solid black;
+			background-color: orange;
+			border-radius: 50%;
+		}
